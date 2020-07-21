@@ -26,13 +26,9 @@ namespace lab3
                 {
                     Console.WriteLine(name + ", the number you entered, " + input + ", is even.");
                 }
-                else if (input > 0 && input <= 25 && input % 2 != 0) //same validations as before but for odd numbers
+                else if (input > 0 && input <=100 && input % 2 != 0) //same validations as before but for odd numbers
                 {
                     Console.WriteLine(name + ", the number you entered, " + input + ", is odd.");
-                }
-                else if (input > 0 && input > 25 && input <= 100 && input % 2 != 0)
-                {
-                    Console.WriteLine(name + "The number you entered, " + input + ", is odd.");
                 }
                 else
                 {
