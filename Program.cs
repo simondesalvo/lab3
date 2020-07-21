@@ -20,7 +20,7 @@ namespace lab3
 
                 if (input > 0 && input <= 25 && input % 2 == 0) //validation that it's a positive number, less than 25, and even
                 {
-                    Console.WriteLine(name + ", the number you entered, " + input + ", is even and less than 25");
+                    Console.WriteLine(name + ", the number you entered, " + input + ", is even and less than 25.");
                 }
                 else if (input > 0 && input > 25 && input <= 100 && input % 2 == 0) //validation that it's positive, less than 100 but more than 25 (including 26-60 range) and even
                 {
@@ -28,7 +28,7 @@ namespace lab3
                 }
                 else if (input > 0 && input <= 25 && input % 2 != 0) //same validations as before but for odd numbers
                 {
-                    Console.WriteLine(name + ", the number you entered, " + input + ", is odd and less than 25");
+                    Console.WriteLine(name + ", the number you entered, " + input + ", is odd.");
                 }
                 else if (input > 0 && input > 25 && input <= 100 && input % 2 != 0)
                 {
